@@ -1,0 +1,52 @@
+{
+    "nombre": "Genshin Impact",
+    "descripcion": "Genshin Impact es un juego de rol de acción en mundo abierto desarrollado por miHoYo. El jugador controla a un personaje conocido como Traveler, que viaja por el mundo de Teyvat en busca de respuestas sobre su hermano perdido y la verdad detrás de los dioses.",
+    "imagen_principal": "https://example.com/genshin_impact.jpg",
+    "personajes": [
+      {
+        "nombre": "Traveler-Anemo",
+        "imagen": "https://example.com/traveler.jpg",
+        "descripcion": "El personaje principal de la historia, que puede ser personalizado como hombre o mujer. Es originario de otro mundo y llega a Teyvat en busca de su hermano perdido.",
+        "habilidades": [
+          {
+            "nombre": "Habilidad elemental: Estallido elemental",
+            "descripcion": "Hace que el personaje genere una explosión elementar en su posición actual, causando daño a los enemigos cercanos."
+          },
+          {
+            "nombre": "Habilidad suprema: Ascenso elemental",
+            "descripcion": "Hace que el personaje se eleve en el aire y convierta su arma en un arma de largo alcance, permitiendo atacar a los enemigos desde una distancia segura."
+          }
+        ]
+      },
+      {
+        "nombre": "Amber",
+        "imagen": "https://example.com/amber.jpg",
+        "descripcion": "Una cazadora de Outrider de la región de Mondstadt. Es alegre y optimista, pero a veces es demasiado impulsiva.",
+        "habilidades": [
+          {
+            "nombre": "Habilidad elemental: Flecha explosiva",
+            "descripcion": "Hace que Amber dispare una flecha cargada de fuego que explota al impactar con un enemigo o al alcanzar su rango máximo, causando daño de fuego a los enemigos cercanos."
+          },
+          {
+            "nombre": "Habilidad suprema: Lluvia de flechas",
+            "descripcion": "Hace que Amber dispare una serie de flechas en un área amplia, causando daño de fuego a los enemigos cercanos."
+          }
+        ]
+      }
+    ],
+    "enemigos": [
+      {
+        "nombre": "Hilichurl",
+        "imagen": "https://example.com/hilichurl.jpg",
+        "descripcion": "Un enemigo común que se encuentra en todo el mundo de Teyvat. Son criaturas humanoides que llevan lanzas y escudos, y a menudo atacan en grupos."
+      },
+      {
+        "nombre": "Slime pyro",
+        "imagen": "https://example.com/slime_pyro.jpg",
+        "descripcion": "Un enemigo de fuego que se encuentra en la región de Liyue. Son criaturas gelatinosas que pueden infligir daño de fuego a los personajes del jugador."
+      }
+    ]
+  }
+
+
+  
