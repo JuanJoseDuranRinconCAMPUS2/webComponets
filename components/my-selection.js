@@ -7,10 +7,20 @@ export default class myselection extends HTMLElement{
     constructor(){
         super();
         this.attachShadow({mode:"open"});
+        console.log("etiqueta selection creada");
+    }
+    hadledEvent(e){
+        (e.type === "click") ? this.sendMessage(e) : console.log("no sirve :c");
+    }
+    sendMessage(e){
+        alert("Esta seccion es la Selection, el lugar donde podras ver diferentes botones de contacto");
+    }
+    connectedCallback(){
         Promise.resolve(myselection.components()).then(html=>{
             this.shadowRoot.innerHTML = html;
+            this.mybuttom = this.shadowRoot.querySelector(".botonBordeadoSeleccion");
+            this.mybuttom.addEventListener("click", this.hadledEvent.bind(this))
         })
-        console.log("etiqueta header creada");
     }
 }
 

@@ -7,10 +7,21 @@ export default class mynav extends HTMLElement{
     constructor(){
         super();
         this.attachShadow({mode:"open"});
+        
+        console.log("etiqueta nav creada");
+    }
+    hadledEvent(e){
+        (e.type === "click") ? this.sendMensagge(e) : console.log("error");
+    }
+    sendMensagge(e){
+        alert("Esta seccion es la Nav, en esta encontraras informacion lateral, util e independiente de la section")
+    }
+    connectedCallback(){
         Promise.resolve(mynav.components()).then(html=>{
             this.shadowRoot.innerHTML = html;
+            this.mybutton = this.shadowRoot.querySelector(".botonBordeadoNav");
+            this.mybutton.addEventListener("click", this.hadledEvent.bind(this))
         })
-        console.log("etiqueta header creada");
     }
 }
 
